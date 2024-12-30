@@ -1,16 +1,16 @@
 portainer/portainer-ce
-nginx
+nginx:latest
 nginx:1.26.2
 fauria/vsftpd
-redis
+redis:latest
 redis:6.2
-rabbitmq
+rabbitmq:latest
 rabbitmq:3.13.7
-elasticsearch
+elasticsearch:8.17.0
 elasticsearch:7.17.26
-kibana
+kibana:8.17.0
 kibana:7.17.26
-logstash
+logstash:8.17.0
 logstash:7.17.26
 
 #支持私库
