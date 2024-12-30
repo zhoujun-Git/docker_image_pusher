@@ -1,4 +1,4 @@
-portainer
+portainer/portainer-ce
 nginx
 nginx:1.21
 vsftpd
