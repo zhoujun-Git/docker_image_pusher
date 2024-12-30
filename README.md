@@ -1,5 +1,9 @@
 # Docker Images Pusher
 
+在 images.txt 添加你需要的镜像（提交），从 https://hub.docker.com/ 搜索需要的镜像后添加。
+新添加镜像，需要等待1分钟同步。之后通过命令 拉取你需要的镜像，如果有版本号，可以添加。 参考阿里云上面的快捷方式
+
+##引用
 使用Github Action将国外的Docker镜像转存到阿里云私有仓库，供国内服务器使用，免费易用<br>
 - 支持DockerHub, gcr.io, k8s.io, ghcr.io等任意仓库<br>
 - 支持最大40GB的大型镜像<br>
